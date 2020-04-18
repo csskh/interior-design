@@ -9,22 +9,26 @@
 }
 
 .topnav{
+	position: relative;
+	bottom: 960px;
+	left: 500px;
 	overflow: hidden;
-	background-color: #333;
+	background-color: transparent;
 }
 
 .topnav a {
 	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 14px 8px;
+    margin: 5px 70px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover{
-	background-color: #ddd;
 	color: black;
+	text-decoration: underline;
 }
 
 .text-block{
@@ -38,4 +42,6 @@
 
 html, body{
 	margin: 0;
+	max-height: 100%
+	max-width: 100%;
 }
