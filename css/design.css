@@ -4,15 +4,17 @@
 
 .container2{
 	position: absolute;
-	margin: 20px;
+	display: inline;
+	top: 5%;
+	left: 30%;
+	margin: 10px;
 	width: auto;
 }
 
 .topnav{
 	position: relative;
-	bottom: 960px;
-	left: 500px;
-	overflow: hidden;
+	top: 10%;
+	right: 20%;
 	background-color: transparent;
 }
 
@@ -31,6 +33,10 @@
 	text-decoration: underline;
 }
 
+li {
+	display: inline;
+}
+
 .text-block{
 	position: absolute;
 	top: 75%;
@@ -42,6 +48,4 @@
 
 html, body{
 	margin: 0;
-	max-height: 100%
-	max-width: 100%;
 }
